@@ -11,11 +11,11 @@ HEADER
 
 
 .header h1 {
-  font-family: "PlayfairDisplay-Bold"
-  font-size: 23px;
-  line-height: 31px;
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 35px;
+  line-height: 47px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .nav ul {
   margin-top: 40px;
@@ -75,4 +75,163 @@ HEADER
   text-align: center;
   color: #FFFFFF;
   margin-top: 120px;
+}
+
+/*.................
+ARTICLE
+.................*/
+
+.article h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.review {
+  display: flex;
+  justify-content: space-around;
+}
+.review-1 h1 {
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+  text-align: center;
+  text-transform: none;
+}
+.review-1 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+h1.orange {
+  color: #FF7931;
+}
+
+/*.................
+SECTION
+.................*/
+
+.section {
+  background-color: #F7F7F7;
+  margin-top: 80px;
+  height: 556px;
+}
+.ellipse {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 707px;
+  height: 707px;
+  left: 366px;
+  top: 1000px;
+  margin: 100px auto;
+}
+.ellipse h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 120px;
+}
+.ellipse-1 {
+  margin-top: -100px;
+}
+.ellipse-1 h1 {
+  font-family: "PlayfairDisplay-Bold";
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  color: #000000;
+  text-transform: none;
+}
+.ellipse-1 p {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+input {
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  left: 635px;
+  top: 1678px;
+  background: #FF7931;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*.................
+FOOTER
+.................*/
+.footer {
+  background-color: #575757;
+  position: relative;
+  margin-top: 40px;
+  height: 310px;
+}
+.footer h1 {
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer .nav ul {
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.footer .nav li {
+  margin-right: 20px;
+}
+.footer .nav a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  color: #fff;  
+  cursor: pointer;  
+  text-transform: uppercase;
+}
+.for_icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.icon {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.icon img {
+  padding: 10px 10px 5px 10px;
 }
